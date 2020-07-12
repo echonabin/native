@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Text, View, StyleSheet, Button } from "react-native";
 
 const ColorScreen = () => {
-  const [colors, setColors] = setColors([]);
+  const [colors, setColors] = useState([]);
   return (
     <View>
       <Button
