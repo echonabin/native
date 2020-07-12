@@ -16,7 +16,36 @@ const ColorScreen = () => {
           height: 100,
           width: 100,
           backgroundColor: randomRGB(),
-        }}></View>
+        }}
+      />
+      <View
+        style={{
+          height: 100,
+          width: 100,
+          backgroundColor: randomRGB(),
+        }}
+      />
+      <View
+        style={{
+          height: 100,
+          width: 100,
+          backgroundColor: randomRGB(),
+        }}
+      />
+      <View
+        style={{
+          height: 100,
+          width: 100,
+          backgroundColor: randomRGB(),
+        }}
+      />
+      <View
+        style={{
+          height: 100,
+          width: 100,
+          backgroundColor: randomRGB(),
+        }}
+      />
     </View>
   );
 };

@@ -17,7 +17,7 @@ const CounterScreen = () => {
           setCounter(counter - 1);
         }}
       />
-      <Text>Current Count:</Text>
+      <Text>Current Count: {counter}</Text>
     </View>
   );
 };
