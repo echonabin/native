@@ -1,10 +1,13 @@
 import React from "react";
-import { View, Text, StyleSheet, Button } from "react-native";
+import { View, Text, StyleSheet, Button, Alert } from "react-native";
 
 const ButtonScreen = () => {
   return (
     <View>
-      <Button title='click me!' />
+      <Button
+        title='click me!'
+        onClick={() => Alert.alert("Button pressed!!")}
+      />
       <Text>Hello from button page!!</Text>
       <Text style={style.textStyle}>Text with design!!</Text>
     </View>
