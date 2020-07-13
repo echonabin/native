@@ -19,14 +19,12 @@ const TextScreen = () => {
         style={style.inputStyle}
         autoCapitalize='none'
         autoCorrect={false}
-        onChangePass={(newPass) => setPass(newPass)}
+        onChangeText={(newPass) => setPass(newPass)}
         value={Pass}
       />
-      {Pass < 5 ? (
+      {Pass.length < 5 ? (
         <Text>Password must be greater than 5 letter</Text>
-      ) : (
-        <Text>{Pass}</Text>
-      )}
+      ) : null}
       <Text>My name is {name}</Text>
     </View>
   );
